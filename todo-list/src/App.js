@@ -12,7 +12,7 @@ class App extends Component {
       currentItem: { text: "", key: "" }
     };
   }
-  deeteItem = key => {
+  deleteItem = key => {
     const filteredItems = this.state.items.filter(item => {
       return item.key !== key;
     });
@@ -39,8 +39,8 @@ class App extends Component {
         items: items,
         currentItem: { text: "", key: "" }
       });
+      console.log("Hello add item");
     }
-    console.log("Hello add item");
   };
   render() {
     return (
