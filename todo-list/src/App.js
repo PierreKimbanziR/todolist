@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import TodoList from "./ToDolist";
-import TodoItems from ".TodoItems";
+import TodoItems from "./TodoItems";
 
 class App extends Component {
   inputElement = React.createRef();
